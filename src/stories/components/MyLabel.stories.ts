@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { MyLabel } from "../components/MyLabel";
+import { MyLabel } from "../../components/MyLabel";
 
 
 
@@ -49,3 +49,14 @@ export const CustomColor: Story = {
         fontColor: '#5517ac'
     }
 };
+
+export const CustomBackgroundColor: Story = {
+    args: {
+        label: 'Custom Background Color',
+        size: 'h2',
+        fontColor: 'white',
+        backgroundColor: 'black'
+    }
+};
+
+// export const CustomWidth = Template.bind({});
